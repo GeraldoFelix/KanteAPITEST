@@ -3,7 +3,7 @@ import json
 import re
 
 # Substitua 'YOUR_ACCESS_TOKEN' pelo seu token da API do Genius
-genius = lyricsgenius.Genius("Uonn6g8-by8jvyBOFvAWDoOZi2_vMJkG9cs_8uR_MOrS2Hih5MVZ2vXQX2zn-V8F")
+genius = lyricsgenius.Genius()
 
 def limpar_letra(lyrics):
     """Remove propagandas, traduções e textos desnecessários da letra."""
